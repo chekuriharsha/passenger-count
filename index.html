@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="english" />
+    <meta name="author" content="Harsha Chekuri" />
+    <meta name="description" content="this is passenger count wegpage" />
+    <meta name="keywords" content="passenger count html css js javascript responsive" />
+    <meta name="robots" content="index follow"/>
+    <meta http-equiv="refresh" content="" />
+    <title>Passenger Count</title>
+    <link rel="icon" type="svg.xml" href="/template/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+<body>
+<header></header>
+<main>
+    <div class="pc-main">
+        <div class="pc-note-scroll">
+            <marquee>Note: The max limit of count is 50.</marquee>
+        </div>
+        <div class="pc-box">
+            <div class="pc-title-box">
+                <h1>Passenger Count</h1>
+                <img src="/template/passenger.png" height="30px"  />
+            </div>
+            <div class="pc-display-box">
+                <h2 id="pc-display-box">Count: 0</h2>
+            </div>
+            <div class="pc-content">
+                <div class="pc-button-level1 pc-button">
+                    <button onclick="Increment()">Increment Count</button>
+                    <button onclick="Decrement()">Decrement Count</button>
+                </div>
+                <div class="pc-button-level2 pc-button">
+                    <button onclick="Reset()">Reset Count</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer></footer>
+<script src="/js/script.js"></script>
+</body>
+</html>
